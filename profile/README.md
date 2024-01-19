@@ -13,8 +13,6 @@ It's some programmer team's attempt at a deep "philosophy" to guide their work o
 ## What language is used?
 Any language, as long as you can produce an opensource project or commercial project from the language/technology you master.
 
-Any language, as long as you can produce an opensource project or commercial project from the language/technology you master.
-
 We personally have a standardized language that we use to create projects here:
 - Javascript
 - Typescript
@@ -29,4 +27,9 @@ We personally have a standardized language that we use to create projects here:
 
 ## How about style guide?
 
-You can read about it [here](./Style-Guide.md)
+We split it into 2 documentations:
+
+> ***Note:*** *By default for branching, we use git flow. but we can refer to other flows.*
+
+- Style guide for writing code. [Read This](/Style-Guide.md)
+- Branching. [Read This](/Branching-Guide.md)

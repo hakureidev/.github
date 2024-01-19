@@ -2,6 +2,9 @@ For more details, we use the guide here according to the language preference use
 
 But in general, we also wrote our base-guide ⬇️
 
+- [General](#general)
+- [Backend](#backend)
+
 ## General
 
 ### Variable & Function Naming
@@ -17,9 +20,6 @@ But in general, we also wrote our base-guide ⬇️
 - Indent using 2 spaces (no tabs).
 - Avoid excessive spaces.
 - Use enter to separate functions and code blocks.
-
-### Auto Linting
-- Use [ESLint](https://eslint.org/) with default config.
 
 ## Backend
 
