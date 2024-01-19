@@ -35,7 +35,7 @@ We personally have a standardized language that we use to create projects here:
 
 ## How about style guide?
 
-We split it into 2 documentations:
+We split it into 3 documentations:
 
 > ***Note:*** *By default for branching, we use git flow. but we can refer to other flows.*
 
