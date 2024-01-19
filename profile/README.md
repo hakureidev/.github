@@ -39,5 +39,6 @@ We split it into 2 documentations:
 
 > ***Note:*** *By default for branching, we use git flow. but we can refer to other flows.*
 
-- Style guide for writing code. [Read This](/Style-Guide.md)
-- Branching. [Read This](/Branching-Guide.md)
+- Style guide for writing code - [Read This](/guide/Style-Guide.md)
+- Branching - [Read This](/guide/Branching-Guide.md)
+- Naming Repository - [Read This](/guide/Naming-Repos-Guide.md)
