@@ -1,4 +1,7 @@
-# Hakureidev Style Guide
+For more details, we use the guide here according to the language preference used: [A curated list of high-quality coding style conventions and standards.](https://github.com/Kristories/awesome-guidelines)
+
+But in general, we also wrote our base-guide ⬇️
+
 ## General
 
 ### Variable & Function Naming
