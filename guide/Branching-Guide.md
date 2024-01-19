@@ -1,5 +1,4 @@
 # 4 branching workflows for Git
-
 - [Git Flow](#git-flow)
 - [Github Flow](#github-flow)
 - [Gitlab Flow](#gitlab-flow)
@@ -18,14 +17,12 @@ During the development cycle, a variety of supporting branches are used:
 - `release-*` - release branches support preparation of a new production release. They allow many minor bug to be fixed and preparation of meta-data for a release. May branch off from `develop` and must merge into `master` and `develop`.
 
 ### Advantages
-
 - Ensures a clean state of branches at any given moment in the life cycle of project.
 - The branches naming follows a systematic pattern making it easier to comprehend.
 - [It has extensions](https://github.com/nvie/gitflow) and support on most used git tools.
 - It is ideal when there it needs to be multiple version in production.
 
 ### Disadvantages
-
 - The Git history becomes unreadable.
 - The master/develop split is considered redundant and makes the Continuous Delivery and the Continuos Integration harder.
 - It isn’t recommended when it need to maintain single version in production.
@@ -41,13 +38,11 @@ The GitHub Flow is a lightweight workflow. It was created by [GitHub in 2011](ht
 - Once it is merged and pushed to `master`, you can and should _deploy_ immediately.
 
 ### Advantages
-
 - it is friendly for the Continuous Delivery and Continuous Integration.
 - A simpler alternative to Git Flow
 - It is ideal when it needs to maintain single version in production
 
 ### Disadvantages
-
 - The production code can become unstable most easily.
 - Are not adequate when it needs the release plans.
 - It doesn’t resolve anything about deploy, environments, releases, and issues.
@@ -71,18 +66,15 @@ The GitLab Flow is based on 11 rules:
 - Commit messages reflect intent.
 
 ### Advantages
-
 - It defines how to make the Continuous Integration and Continuous Delivery
 - The git history will be cleaner, less messy and more readable (see [why devs prefers squash and merge, instead of only merging, on this article](https://softwareengineering.stackexchange.com/questions/263164/why-squash-git-commits-for-pull-requests))
 - It is ideal when it needs to single version in production
 
 ### Disadvantages
-
 - It is more complex that the GitHub Flow.
 - It can become complex as Git Flow when it needs to maintain multiple version in production.
 
 ## One Flow
-
 The One Flow is a proposed alternative in article[ GitFlow considered harmful by Adam Ruka, written in 2015](http://endoflineblog.com/gitflow-considered-harmful). The main condition that needs to be satisfied in order to use OneFlow is that every new production release is based on the previous release. The most difference between One Flow and Git Flow that it not has `develop` branch.
 
 ### Advantages
@@ -91,7 +83,6 @@ The One Flow is a proposed alternative in article[ GitFlow considered harmful by
 - It is ideal when it needs to single version in production.
 
 ### Disadvantages
-
 - It isn’t recommended for projects with Continuous Delivery or Continuous Deploy.
 - The feature branches make it harder the Continuos Integration
 - It isn’t recommended when it needs to maintain single version in production

@@ -6,7 +6,6 @@ But in general, we also wrote our base-guide ⬇️
 - [Backend](#backend)
 
 ## General
-
 ### Variable & Function Naming
 - use `camelCase`.
 - Avoid naming 1 word variables such as: `a`, `b`, `c`.
@@ -22,7 +21,6 @@ But in general, we also wrote our base-guide ⬇️
 - Use enter to separate functions and code blocks.
 
 ## Backend
-
 ### Project Structure
 - Follow the MVC pattern by separating business logic in the models folder.
 - Keep configuration in the config folder.
